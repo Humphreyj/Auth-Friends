@@ -20,7 +20,7 @@ const NewFriendForm = (props) => {
 
     const [newFriend, updateNewFriend] = useState({
         
-        id: props.friends.length,
+        id: Date.now(),
         name: '',
         age: '',
         email: '',

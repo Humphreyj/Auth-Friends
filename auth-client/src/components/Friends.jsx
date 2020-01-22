@@ -28,7 +28,7 @@ const Friends = () => {
                 return (
                     <Friend
                     key={i}
-                    id={friends.length}
+                    id={friend.id}
                     name={friend.name}
                     age={friend.age}
                     email={friend.email}
